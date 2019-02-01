@@ -43,12 +43,10 @@ tabs:
         inventory_management_method:
             label: 'offline.mall::lang.product.inventory_management_method'
             oc.commentPosition: ''
-            options:
-                single: 'offline.mall::lang.variant.method.single'
-                variant: 'offline.mall::lang.variant.method.variant'
             span: auto
             type: dropdown
             tab: 'offline.mall::lang.product.general'
+            dependsOn: category
         group_by_property_id:
             label: 'offline.mall::lang.product.group_by_property'
             oc.commentPosition: ''
